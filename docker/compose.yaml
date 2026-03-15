@@ -1,0 +1,14 @@
+services:
+  game_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /opt/data
+    command: ["tail", "-f", "/dev/null"]
+    image: game_api
+    container_name: game_api
+    ports:
+      - "8005:8005"
+      - "3902:3902"
+    volumes:
+      - ../:/opt/data
