@@ -34,5 +34,10 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
+    'riot' =>[
+        'api_key' => env('RIOT_API_KEY') ,
+        'puuid' => env('RIOT_PUUID'),
+        'base_url'=> env('RIOT_BASE_URL'),
+    ]
 
 ];
