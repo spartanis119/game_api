@@ -263,10 +263,7 @@ defineProps<LolPageProps>();
                                         <p class="text-muted-foreground font-medium mb-4">{{ champion.championInfo.lore
                                             }}</p>
                                         <h3 class="font-medium mb-2">Habilidades</h3>
-                                        <h4 class="mb-2 "><b>Pasiva:</b> {{
-                                            champion.championInfo.habilities.passive.name }}</h4>
-                                        <p class="mb-2 text-muted-foreground font-medium">{{
-                                            champion.championInfo.habilities.passive.description }}</p>
+                                        <h4 class="mb-2 "><b>Pasiva:</b> {{champion.championInfo.habilities.passive.name }}</h4>
                                         <h4 class="mb-2 "><b>Q:</b> {{ champion.championInfo.habilities.q.name }}</h4>
                                         <p class="mb-2 text-muted-foreground font-medium">{{
                                             champion.championInfo.habilities.q.description }}</p>
