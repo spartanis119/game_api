@@ -17,7 +17,7 @@ import {
 import games from '@/routes/games';
 import home from '@/routes/home';
 import type { ValorantPageProps } from '@/types/valorant';
-const props = defineProps<ValorantPageProps>();
+defineProps<ValorantPageProps>();
 
 </script>
 
