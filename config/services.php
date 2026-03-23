@@ -41,6 +41,9 @@ return [
     ],
     'valorant' => [
         'base_url' => env('VALORANT_BASE_URL'),
+    ],
+    'pokemon' => [
+        'base_url' => env('POKEMON_BASE_URL'),
     ]
 
 ];
